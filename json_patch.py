@@ -576,6 +576,7 @@ def main():
             unsafe_writes=dict(required=False, default=False, type='bool'),
             pretty=dict(required=False, default=False, type='bool'),
             create=dict(required=False, default=False, type='bool'),
+            create_parents=dict(required=False, default=False, type='bool'),
             create_type=dict(required=False, default='object', type='str'),
         ),
         supports_check_mode=True
